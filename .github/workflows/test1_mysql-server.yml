@@ -39,6 +39,9 @@ jobs:
           path: |
             . 
             !venv/
+            
+      - name: run flask
+        run: nohup python test.py &
 
   deploy:
     runs-on: ubuntu-latest
