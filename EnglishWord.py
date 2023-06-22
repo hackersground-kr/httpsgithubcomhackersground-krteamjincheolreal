@@ -3,7 +3,6 @@ import seaborn as sns
 import random
 import sys
 
-
 def input_info():
     first, last, HowMany = map(int,input("범위를 지정해주세요 : ").split())
     if HowMany > (last - first + 1) * 10:
@@ -20,12 +19,13 @@ def print_question(first, last, HowMany, file_data):
     last_num = last * 10
     check_list = [ i for i in range(first_num, last_num) ] #중복 출력을 막기 위해 만든 리스트
     print_list = [] #출력된 단어들의 인덱스를 넣어서 리턴할 리스트
+    return_list = [] # 출력된 단어들을 리턴할 리스트
     for i in range(HowMany):
         word_num = random.choice(check_list)
         check_list.remove(word_num)
         print_list.append(word_num)
-        print('{:>4} | {}'.format(i+1, file_data.iloc[word_num,0]))
-    return print_list
+        return_list.append({'problem':file_data.iloc[word_num,0], 'answer':file_data.iloc[word_num,1]})
+    return return_list
 
 def print_answer(file_data, print_list, HowMany):
     for i in range(HowMany):
@@ -35,12 +35,9 @@ def print_answer(file_data, print_list, HowMany):
 
 
 def main():
-    first, last, HowMany = input_info()
-    file_data = read_file("/Users/eunsaelee/development/JumpUp_HappySchool/dir/Word Master 초등 베이직.xlsx")
-    print_list = print_question(first, last, HowMany, file_data)
-    a = str(input("답을 출력할까요? y/n : "))
-    if a!="n" and a!="N":
-        print_answer(file_data, print_list, HowMany)
+    file_data = read_file("./dir/Word Master 초등 베이직.xlsx")
+    return_list = print_question(1, 4, 20, file_data)
+    print(return_list)
 
 
 main()
