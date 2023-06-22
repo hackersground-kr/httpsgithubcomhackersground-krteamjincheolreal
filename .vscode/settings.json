@@ -2,5 +2,7 @@
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/bfa39d86-1058-4824-8074-e9d283d6c321/resourceGroups/rg-hg-httpsgithubcomhackersground-krteamjincheolreal/providers/Microsoft.Web/sites/mysql-server",
+    "appService.deploySubpath": "."
 }
