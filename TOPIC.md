@@ -10,8 +10,8 @@
 - 뒤쳐지거나 뒤늦게 공부를 시작하는 학생들에게는 기본적인 개념을 잡을 수 있는 문제를 제공하여 도움을 줄 수 있음.
 
 3. 아키텍처
-- [Architecture Diagram]<br>
 ![제목 없는 다이어그램 drawio (2)](https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal/assets/49835246/0ca39a03-2b7e-4c99-8d81-8df464322333)
+[Architecture Diagram]<br>
 - 사용자가 WEB에 접근을 하여 로그인을 하면 mySQL 정보와 대조하여 이상이 없다면 접속 가능.
 - 프론트 서버는 리액트를 사용하여 구현하였고, 백엔드 서버는 플라스트를 통해 구현함.
 - Azure Web Server와 Azure Database for MySQL을 통해 배포.
