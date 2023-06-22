@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { API } from '../../config';
 import { useNavigate } from "react-router-dom";
+import './MathTest.css';
+import PDFDownloadButton from "./makePDF";
+import onClickGoOut from "./alert";
 
 function Submit(props) {
-  return <button onClick={props.onChangeMode}>제출</button>;
+  return <button onClick={props.onChangeMode} className="submit">제출</button>;
 }
 
 function Question(props) {
@@ -15,9 +17,10 @@ function Question(props) {
   };
 
   return (
-    <div>
-      <h3>문제 {number}.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{value.problem}</h3>
-      <input type="text" onChange={handleChange} />
+    <div className="question">
+      <h3 className="element">문제 {number}.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{value.problem}</h3>
+      <p>정답을 입력해주세요.</p>
+      <input  className="inputAnswer" type="text" onChange={handleChange} />
     </div>
   );
 }
@@ -38,7 +41,7 @@ function MathTest1() {
             }
         }
         console.log(cnt);
-        alert(cnt +'개 맞았습니다!');
+        onClickGoOut();
     }
     navigate("/enter");
   };
@@ -52,7 +55,7 @@ function MathTest1() {
 
   useEffect(() => {
     const qRequest = async () => {
-      const url = `https://${API.MYSQL_SERVER_NAME}.azurewebsites.net/sachick`;
+      const url = "https://mysql-server.azurewebsites.net/sachick";
       const data = {
         degree: 7,
       };
@@ -80,7 +83,7 @@ function MathTest1() {
 
   return (
     <div>
-      <h2>사칙연산 테스트</h2>
+      <h2 className="title">사칙연산 테스트</h2>
       {questions.map((question, index) => (
         <Question
           key={index}
@@ -89,7 +92,10 @@ function MathTest1() {
           onChange={handleInputChange}
         />
       ))}
-      <Submit onChangeMode={handleClick} />
+      <div className="buttonBox">
+        <Submit onChangeMode={handleClick} />
+        <PDFDownloadButton></PDFDownloadButton>
+      </div>
     </div>
   );
 }

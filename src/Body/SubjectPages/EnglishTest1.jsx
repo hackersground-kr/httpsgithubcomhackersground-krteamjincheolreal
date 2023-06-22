@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { API } from '../../config';
 import { useNavigate } from "react-router-dom";
+import './EnglishTest.css';
+import PDFDownloadButton from "./makePDF";
 
 function Submit(props) {
-  return <button onClick={props.onChangeMode}>제출</button>;
+    return <button onClick={props.onChangeMode} className="submit1">제출</button>;
 }
 
 function Question(props) {
@@ -15,9 +16,15 @@ function Question(props) {
   };
 
   return (
-    <div>
-      <h3>문제 {number}.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{value.problem}</h3>
-      <input type="text" onChange={handleChange} />
+    <div className="question1">
+      <div className="block1">
+        <h3 className="element1">문제 {number}</h3>
+        <p className="word1">{value.problem}</p>
+      </div>
+      <div className="block1">
+        <p>뜻을 입력해주세요.</p>
+        <input className="inputAnswer1" type="text" onChange={handleChange} />
+      </div>
     </div>
   );
 }
@@ -52,7 +59,7 @@ function EnglishTest1() {
 
   useEffect(() => {
     const qRequest = async () => {
-      const url = `https://${API.MYSQL_SERVER_NAME}.azurewebsites.net/EnglishWord`;
+      const url = "https://mysql-server.azurewebsites.net/EnglishWord";
       const data = {
         first: 1,
         last : 30,
@@ -82,7 +89,7 @@ function EnglishTest1() {
 
   return (
     <div>
-      <h2>기초 영어단어 테스트</h2>
+      <h2 className="title1">기초 영어단어 테스트</h2>
 
       {questions.map((question, index) => (
         <Question
@@ -92,7 +99,10 @@ function EnglishTest1() {
           onChange={handleInputChange}
         />
       ))}
-      <Submit onChangeMode={handleClick} />
+      <div className="buttonBox1">
+        <Submit onChangeMode={handleClick} />
+        <PDFDownloadButton></PDFDownloadButton>
+      </div>
     </div>
   );
 }

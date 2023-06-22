@@ -9,6 +9,11 @@ function Subject(props){
 
     const navigate = useNavigate();
 
+
+    const mathStudyClick = (check, name) => {
+        navigate('/enter/study/math')
+    };
+
     const sachikClick = (check, name) => {
         {check ? navigate('/enter/study/math') : navigate('/enter/test/math/sachick')}
     };
@@ -19,7 +24,10 @@ function Subject(props){
 
     const handleClick = (check, name) => {
         {
-            if(name==='사칙연산')
+            if(name=='수학'){
+                mathStudyClick();
+            }
+            else if(name==='사칙연산')
             {
                 sachikClick();
             }
@@ -36,7 +44,7 @@ function Subject(props){
 
     return (
         <button className='subject' style={subjectStyle} onClick={() => handleClick(props.isTested, props.name)}>
-            <h2 className='subjectName'>{props.name}</h2>
+            <h2 className='subjectName'>{props.name}공부 하러가기</h2>
             {props.isTested ? (
                 <p className="state">{props.name} 공부하러 가기</p>
             ) : (
@@ -50,9 +58,10 @@ function Subject(props){
 function MathTest(){
     return (
         <div className='subjectBox'>
-        <Subject name='사칙연산' isTested={false} color='rgb(27, 150, 212)'></Subject>
-        <Subject name='방정식' isTested={false} color='rgb(241, 241, 24)'></Subject>
-        <Subject name='2222' isTested={false} color='rgb(134, 224, 66)'></Subject>
+        <Subject name='수학' isTested={true} color='#f7c9cb'></Subject>
+        <Subject name='사칙연산' isTested={false} color='#f7c9cb'></Subject>
+        <Subject name='방정식' isTested={false} color='#f7c9cb'></Subject>
+        <Subject name='연립방정식' isTested={false} color='#f7c9cb'></Subject>
     </div>
     );
 }

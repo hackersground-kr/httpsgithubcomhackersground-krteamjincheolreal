@@ -1,0 +1,358 @@
+.main-login-math-elementary-arithmetic-nMZ {
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 10rem;
+    position: relative;
+    width: 100%;
+  }
+  
+  .header-ZFq {
+  align-items: center;
+  background-color: #f7c9cb;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Inter, 'Source Sans Pro';
+  font-size: 1.2rem;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.2125;
+  margin-bottom: 4.05rem;
+  padding: 2.25rem 7.75rem;
+  white-space: nowrap;
+  width: 100%;
+  }
+  .auto-group-nqu9-ByM {
+  align-items: flex-end;
+  display: flex;
+  flex-shrink: 0;
+  margin: 0rem 5rem 0rem 6rem;
+  width: calc(100% - 11rem);
+  padding-top: 40px;
+  }
+  
+  .auto-group-vweb-SuH {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 6.289rem 0.25rem 0rem;
+  }
+  
+  .item--sjh {
+  color: #000000;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Inter, 'Source Sans Pro';
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  margin-bottom: 6.3rem;
+  white-space: nowrap;
+  }
+  .elementy-VFH {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0rem 0rem 2.5rem 1.5rem;
+  }
+  
+  .item--bJK {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 10rem 1.5rem 0rem;
+    white-space: nowrap;
+  }
+  .item--g4s {
+    color: #fc9196;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin-bottom: 2rem;
+    white-space: nowrap;
+  }
+  .item--mc7 {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin-bottom: 2rem;
+    white-space: nowrap;
+  }
+  .item--5sh {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 1.4rem 2rem 0rem;
+    white-space: nowrap;
+  }
+  .item--b5M {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 1.4rem 2rem 0rem;
+    white-space: nowrap;
+  }
+  .item--hPH {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin-right: 2.1rem;
+    white-space: nowrap;
+  }
+  
+  .middle-195 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 1.5rem;
+  }
+  
+  .item--8Dh {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 16rem 1.5rem 0rem;
+    white-space: nowrap;
+  }
+  .item--RTh {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 1rem;
+    white-space: nowrap;
+  }
+  .item--Wzw {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 1rem;
+    white-space: nowrap;
+  }
+  .item--2TV {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 4.4rem;
+    white-space: nowrap;
+  }
+  .item--XQF {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 2.3rem;
+    white-space: nowrap;
+  }
+  .item--EpT {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 7.9rem;
+    white-space: nowrap;
+  }
+  .item--Y4T {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 1rem;
+    white-space: nowrap;
+  }
+  .item--Sfd {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 0.2rem;
+    white-space: nowrap;
+  }
+  .item--LW7 {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 3.7rem;
+    white-space: nowrap;
+  }
+  .item--39d {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 8.5rem;
+    white-space: nowrap;
+  }
+  .item--8gs {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 1.5rem 3rem;
+    white-space: nowrap;
+  }
+  .item--eQK {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 0.2rem;
+    white-space: nowrap;
+  }
+  .item--ANf {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 1rem;
+    white-space: nowrap;
+  }
+  .item--sXy {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 2rem 0.2rem;
+    white-space: nowrap;
+  }
+  .item--mNT {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin-left: 3rem;
+    white-space: nowrap;
+  }
+  
+  .explain-3Ky {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 8.611rem 17.563rem 0rem;
+  }
+  
+  .item--PPq {
+    color: #fc9196;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    margin: 0rem 0rem 6.887rem 0.011rem;
+    white-space: nowrap;
+    padding-top: 40px;
+  }
+  .x-2-12-9-3-3-3-6-3-5-2-2-x-2-6-5-2-6-7-16-spo {
+    color: #000000;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    max-width: 28.9rem;
+  }
+  
+  .x-2-12-9-3-3-3-6-3-5-2-2-x-2-6-5-2-6-7-16-spo-sub-1 {
+    color: #f7c9cb;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2125;
+  }
+  
+  .history-Dhd {
+    align-items: center;
+    background-color: #f7c9cb;
+    border-radius: 2rem;
+    color: #ffffff;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 2rem;
+    font-weight: 800;
+    height: 4.8rem;
+    justify-content: center;
+    line-height: 1.2125;
+    white-space: nowrap;
+    width: 20rem;
+  }

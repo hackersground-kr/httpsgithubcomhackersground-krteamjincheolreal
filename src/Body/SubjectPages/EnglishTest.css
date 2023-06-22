@@ -1,0 +1,56 @@
+.word1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.block1{
+    float: left;
+    width: 200px;
+}
+
+.question1{
+    display: flex;
+}
+
+.element1{
+    margin: 0 auto;
+}
+
+.inputAnswer1{
+    margin:  0 auto;
+    width: 100px;
+}
+
+.question1{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: #f7c9cb;
+    border-radius: 10px;
+}
+
+.submit1{
+    padding: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: pink;
+    margin: 20px;
+}
+
+.buttonBox1{
+    text-align: center;
+    margin: 50px;
+}
+
+.title1{
+    padding: 30px;
+    margin: 0 auto;
+    width: max-content;
+}

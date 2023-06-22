@@ -1,5 +1,4 @@
 import React from "react";
-import { API } from '../config';
 import './LoginBox2.css';
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -25,7 +24,7 @@ function LoginBox2({onLogin}){
         console.log(idValue);
         console.log(pwValue);
 
-      const url = `https://${API.MYSQL_SERVER_NAME}.azurewebsites.net/login`;
+      const url = "https://mysql-server.azurewebsites.net/login";
       const data = {
         id: idValue,
         pw: pwValue
@@ -77,7 +76,7 @@ function LoginBox2({onLogin}){
                 </div>
                 <div class="line-1-TTh" id="7:26"></div>
                 <div class="google-CAP" id="7:21">
-                <img class="image-1-iPd" src="img/google.png" id="7:30" />
+                <img class="image-1-iPd" src="img/google2.png" id="7:30" />
                 <div class="dd-eHH" id="7:28">Google 로그인</div>
                 </div>
             </div>
