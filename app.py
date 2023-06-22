@@ -5,12 +5,19 @@ from flask_cors import CORS
 from src.bang import *
 from src.sachick import *
 from src.EnglishWord import *
+import json
+
+with open('config.json') as f:
+    config = json.load(f)
+
+mysql_server_name = config['mysql-server-name']
+mysql_password = config['mysql-password']
 
 def set_mysql():
     config = {
-        'host':'barahana.mysql.database.azure.com',
-        'user':'barahana',
-        'password':'qwer1234!@#$',
+        'host':f'{mysql_server_name}.mysql.database.azure.com',
+        'user':mysql_server_name,
+        'password':mysql_password,
         'database':'user_data',
         'client_flags': [mysql.connector.ClientFlag.SSL],
         'ssl_ca': './DigiCertGlobalRootG2.crt.pem'
