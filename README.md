@@ -24,9 +24,17 @@
 ## 설치 방법
 
 > **아래 제공하는 설치 방법을 통해 심사위원단이 여러분의 제품/서비스를 실제 Microsoft 애저 클라우드에 배포하고 설치할 수 있어야 합니다. 만약 아래 설치 방법대로 따라해서 배포 및 설치가 되지 않을 경우 본선에 진출할 수 없습니다.**
+> git clone https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal
+> Visual Studio Code Extensions에서 Azure Tools 설치
+> Azure App Services에서 python 3.10 용 웹앱, Node 18 lts 용 웹앱에 각각 deploy한다.(httpsgithubcomhackersground-krteamjincheolreal 폴더)
+> jumpuptohappyschool-server1.azurewebsites.net을 통해 접근할 수 있다.
 
 ### 사전 준비 사항
 
+> Azure Portal에서 이름이 mysql-server인 python 3.10 용 웹앱을 만든다. (백엔드)
+> Azure Portal에서 이름이 Jumpuptohappyschool-server1인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)
+> 
+> 
 > **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위해 사전에 필요한 준비 사항들을 적어주세요.**
 
 ## 시작하기
