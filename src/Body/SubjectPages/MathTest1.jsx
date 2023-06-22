@@ -3,7 +3,6 @@ import { API } from "../../config";
 import { useNavigate } from "react-router-dom";
 import './MathTest.css';
 import PDFDownloadButton from "./makePDF";
-import onClickGoOut from "./alert";
 
 function Submit(props) {
   return <button onClick={props.onChangeMode} className="submit">제출</button>;
