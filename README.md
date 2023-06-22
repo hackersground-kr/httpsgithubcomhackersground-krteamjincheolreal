@@ -16,8 +16,6 @@
 - Azure Account
 - Azure Web App
 - Azure Database for MySQL
-- Node js
-- npm
   
 ## 설치 방법
 > **아래 제공하는 설치 방법을 통해 심사위원단이 여러분의 제품/서비스를 실제 Microsoft 애저 클라우드에 배포하고 설치할 수 있어야 합니다. 만약 아래 설치 방법대로 따라해서 배포 및 설치가 되지 않을 경우 본선에 진출할 수 없습니다.**<br>
@@ -26,19 +24,19 @@
 > 2. 이 레포지토리를 클론합니다.
 ```ps1
 git clone https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal
-```
-```ps1
 cd httpsgithubcomhackersground-krteamjincheolreal
 ```
-> 4. 루트폴더에 있는 config.json에서 **[mysql-server-name]** 과 **[python-server-name]**, **[react-server-name]** 을 설정합니다.<br>
+> 3. 루트폴더에 있는 config.json에서 **[mysql-server-name]** 과 **[python-server-name]**, **[react-server-name]** 을 설정합니다.<br>
 > 3-1. src폴더에 있는 config.js에서 **[MYSQL_SERVER_NAME]** 을 설정합니다.<br>
-> 5. Azure Portal App Services에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만듭니다. (백엔드)<br>
-> 6. Azure Portal App Services에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만듭니다. (프론트엔드)<br>
+> 4. Azure Portal App Services에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만듭니다. (백엔드)<br>
+> 5. Azure Portal App Services에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만듭니다. (프론트엔드)<br>
 
 #### 백엔드(flask) 배포 방법(visual studio code에서 작업)<br>
 > 1. VScode에서 Azure Tools 설치 및 Sign in to Azure<br>
 > 2. Hackers Ground 클릭 -> App Services 클릭 -> **사전 준비 사항** 에서 만들었던 **[python-server-name]** 우클릭 -> Deploy to Web App 클릭<br>
 > 3. https://**[python_server_name]**.azurewebsites.net 로 접근<br>
+<img width="529" alt="image" src="https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal/assets/49835246/946788a8-862c-4c9e-855c-3de11e1f2420">
+
 
 #### 프론트엔드(React) 배포 방법(visual studio code에서 작업)<br>
 > 1. VScode에서 Azure Tools 설치 및 Sign in to Azure<br>
