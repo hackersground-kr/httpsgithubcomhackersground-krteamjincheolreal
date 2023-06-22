@@ -28,17 +28,19 @@
 > 2. Visual Studio Code Extensions에서 Azure Tools 설치<br>
 > 3. Azure App Services에서 python 3.10 용 웹앱, Node 18 lts 용 웹앱에 각각 deploy한다.(httpsgithubcomhackersground-krteamjincheolreal 폴더)<br>
 <img width="472" alt="Screenshot 2023-06-22 at 17 28 41" src="https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal/assets/49835246/546dcd52-c6c7-4174-b08d-b574e0cc57da"><br>
-> 4. https://jumpuptohappyschool-server1.azurewebsites.net 을 통해 접근할 수 있다.<br>
+> 4. https://<<react-server-name>>.azurewebsites.net 을 통해 접근할 수 있다.<br>
 
 
 ### 사전 준비 사항
 
-> Azure Portal에서 이름이 mysql-server인 python 3.10 용 웹앱을 만든다. (백엔드)
-> Azure Portal에서 이름이 Jumpuptohappyschool-server1인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)
-> 
-> 
-> **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위해 사전에 필요한 준비 사항들을 적어주세요.**
+> **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위해 사전에 필요한 준비 사항들을 적어주세요.**<br>
+> 루트폴더에 있는 config.json에서 <mysql-server-name>과 <python-server-name>, <react-server-name>을 설정한다.<br>
+> src폴더에 있는 config.js에서 <MYSQL_SERVER_NAME>을 설정한다.
+> Azure Portal에서 이름이 <python-server-name>인 python 3.10 용 웹앱을 만든다. (백엔드)<br>
+> Azure Portal에서 이름이 <react-server-name>인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)<br>
+> Azure Portal에서 이름이 <mysql-server-name>인 Azure database for MySQL 서버를 만든다. (백엔드)<br>
 
 ## 시작하기
 
-> **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위한 절차를 구체적으로 나열해 주세요.**
+> **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위한 절차를 구체적으로 나열해 주세요.**<br>
+> d
