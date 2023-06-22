@@ -23,7 +23,7 @@
 
 > **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위해 사전에 필요한 준비 사항들을 적어주세요.**<br>
 > 루트폴더에 있는 config.json에서 **[mysql-server-name]** 과 **[python-server-name]**, **[react-server-name]** 을 설정한다.<br>
-> src폴더에 있는 config.js에서 **[MYSQL_SERVER_NAME]** 을 설정한다.
+> src폴더에 있는 config.js에서 **[MYSQL_SERVER_NAME]** 을 설정한다.<br>
 > Azure Portal에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만든다. (백엔드)<br>
 > Azure Portal에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)<br>
 > Azure Portal에서 이름이 **[mysql-server-name]** 인 Azure database for MySQL 서버를 만든다. (백엔드)<br>
@@ -31,4 +31,4 @@
 ## 시작하기
 
 > **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위한 절차를 구체적으로 나열해 주세요.**<br>
-> 
+> 내일 아침 8시까지 작성예정
