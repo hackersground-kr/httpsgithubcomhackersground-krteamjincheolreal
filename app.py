@@ -1,10 +1,10 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, make_response
 import mysql.connector
 from mysql.connector import errorcode
 from flask_cors import CORS
-from bang import *
-from sachick import *
-from EnglishWord import *
+from src.bang import *
+from src.sachick import *
+from src.EnglishWord import *
 
 def set_mysql():
     config = {
@@ -30,14 +30,15 @@ def set_mysql():
         cursor = conn.cursor()
         return conn, cursor
 
-
-
-
 app = Flask(__name__)
 CORS(app)
 @app.route('/')
 def index():
     return "Hello, World!"
+
+def build_actual_response(response):
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    return response
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -53,10 +54,11 @@ def login():
 
         for (no, id, pw) in cursor:
             if id_value == id and pw_value == pw:
-                return jsonify({'message': 'true'})
-        return jsonify({'message': 'false'})
+                return build_actual_response(jsonify({'message': 'true'}))
+        return build_actual_response(jsonify({'message': 'false'}))
     else:
-        return jsonify({'message': 'false'})
+        return build_actual_response(jsonify({'message': 'false'}))
+
 
 @app.route('/bang', methods=['POST', 'GET'])
 def bang():
@@ -72,7 +74,7 @@ def bang():
             bang_arr.append({'problem': moon, 'answer': f"{result.numerator}/{result.denominator}"})
         else:   
             bang_arr.append({'problem': moon, 'answer': str(int(dap))})
-    return jsonify(bang_arr)
+    return build_actual_response(jsonify(bang_arr))
 
 @app.route('/sachick', methods=['POST', 'GET'])
 def sachick():
@@ -91,17 +93,17 @@ def sachick():
             sachick_arr.append({'problem': p, 'answer': f"{result.numerator}/{result.denominator}"})
         else:   
             sachick_arr.append({'problem': p, 'answer': str(int(d))})
-    return jsonify(sachick_arr)
+    return build_actual_response(jsonify(sachick_arr))
 
 @app.route('/EnglishWord', methods=['POST', 'GET'])
 def EnglishWord():
     data = request.get_json()
     first, last, HowMany = int(data.get('first')), int(data.get('last')), int(data.get('HowMany'))
     if HowMany > (last - first + 1) * 10:
-        return jsonify({'message': 'false'})
+        return build_actual_response(jsonify({'message': 'false'}))
     file_data = read_file("./dir/Word Master 초등 베이직.xlsx")
     return_list = print_question(first, last, HowMany, file_data)
-    return jsonify(return_list)
+    return build_actual_response(jsonify(return_list))
 
 if __name__ == '__main__':
     app.run()

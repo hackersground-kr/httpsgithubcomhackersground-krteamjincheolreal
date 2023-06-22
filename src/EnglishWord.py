@@ -38,6 +38,3 @@ def main():
     file_data = read_file("./dir/Word Master 초등 베이직.xlsx")
     return_list = print_question(1, 4, 20, file_data)
     print(return_list)
-
-
-main()
