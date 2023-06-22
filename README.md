@@ -54,13 +54,13 @@ cd httpsgithubcomhackersground-krteamjincheolreal
 >    create database user_data;
 >    use user_data;
 >    CREATE TABLE member_table (
-     no        INT NOT NULL AUTO_INCREMENT,
-     id     VARCHAR(50),
-     pw    VARCHAR(50),
-     primary key(no)
-    );
-    INSERT INTO user_data (id, pw)
-	   	    VALUE('guest', 'guest');
+>     no        INT NOT NULL AUTO_INCREMENT,
+>     id     VARCHAR(50),
+>     pw    VARCHAR(50),
+>     primary key(no)
+>    );
+>    INSERT INTO user_data (id, pw)
+>	   	    VALUE('guest', 'guest');
     ```
     위 코드를 **[mysql-server-name]** Azure Portal 개요에 있는 연결 클릭 -> 붙여넣기
 
