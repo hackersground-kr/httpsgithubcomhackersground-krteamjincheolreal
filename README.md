@@ -62,7 +62,8 @@ cd httpsgithubcomhackersground-krteamjincheolreal
 >    INSERT INTO user_data (id, pw)
 >	   	    VALUE('guest', 'guest');
 >    ```<br>
-    위 코드를 **[mysql-server-name]** Azure Portal 개요에 있는 연결 클릭 -> 붙여넣기
+    
+위 코드를 **[mysql-server-name]** Azure Portal 개요에 있는 연결 클릭 -> 붙여넣기
 
 서비스는 https://**[react-server-name]**.azurewebsites.net 을 통해 접근 가능.<br>
 
