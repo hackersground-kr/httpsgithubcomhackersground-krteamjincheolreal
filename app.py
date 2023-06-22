@@ -2,9 +2,9 @@ from flask import Flask, render_template, request, jsonify, make_response
 import mysql.connector
 from mysql.connector import errorcode
 from flask_cors import CORS
-from src.bang import *
-from src.sachick import *
-from src.EnglishWord import *
+from src1.bang import *
+from src1.sachick import *
+from src1.EnglishWord import *
 import json
 
 with open('config.json') as f:

@@ -1,6 +1,6 @@
 {
-    "python-site-name" : "mysql-server",
-    "react-site-name" : "jumpuptohappyschool-server1",
-    "mysql-site-name" : "barahana",
+    "python-server-name" : "mysql-server",
+    "react-server-name" : "jumpuptohappyschool-server1",
+    "mysql-server-name" : "barahana",
     "mysql-password" : "qwer1234!@#$"
 }
