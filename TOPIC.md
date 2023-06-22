@@ -34,8 +34,7 @@
 
 #### 웹 사이트 소개
 [시연 영상]
-https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal/assets/49835246/1305a60e-48cc-4a46-9faa-27f4d0e933a2
-
+https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal/assets/49835246/2c025742-625e-4819-bad8-efbd64593216
 
 [로그인 화면]<br>
 <img width="1727" alt="Screenshot 2023-06-22 at 19 57 47" src="https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal/assets/49835246/94893d9b-ff63-4ded-b901-937a4ba5115e"><br>
