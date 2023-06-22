@@ -26,7 +26,7 @@
 > 2. ```code httpsgithubcomhackersground-krteamjincheolreal```<br>
 > 3. VScode에서 Azure Tools 설치 및 Sign in to Azure<br>
 > 4. Hackers Ground 클릭 -> App Services 클릭 -> **사전 준비 사항** 에서 만들었던 **[python-server-name]** 우클릭 -> Deploy to Web App 클릭<br>
-> 5. **[python_server_name]**.azurewebsites.net 로 접근<br>
+> 5. https://**[python_server_name]**.azurewebsites.net 로 접근<br>
 
 #### 프론트엔드(React) 배포 방법(visual studio code에서 작업)<br>
 > 1. ```git clone https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal```<br>
