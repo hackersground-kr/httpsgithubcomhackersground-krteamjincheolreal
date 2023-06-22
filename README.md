@@ -1,6 +1,6 @@
 # `신진철` - `Jump up happy school`
 
-해커그라운드 해커톤에 참여하는 `신진철` 팀의 `Jump up happy school`입니다.
+해커그라운드 해커톤에 참여하는 `신진철` 팀의 `Jump up happy school`입니다. 저희 팀은 교육의 불균형을 해결하기 위한 플랫폼 "Jump Up Happy School"을 개발하였습니다.
 
 ## 제품/서비스 소개
 
