@@ -1,0 +1,14 @@
+.window{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.profileBar{
+    float: left;
+}
+
+.contents{
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr;
+}

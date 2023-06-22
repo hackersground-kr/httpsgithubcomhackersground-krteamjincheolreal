@@ -1,0 +1,25 @@
+.subject{
+    height: 100px;
+    background-color: rgb(168, 84, 228);
+    margin: 20px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.subjectName{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    text-align: left;
+}
+
+.state{
+    padding: 20px;
+    text-align: right;
+    margin: 0px;
+}
+
+.subjectBox{
+    display: grid;
+    grid-template-columns: 1fr;
+}
