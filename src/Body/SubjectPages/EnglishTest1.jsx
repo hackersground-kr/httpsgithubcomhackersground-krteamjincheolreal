@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { API } from "../../config";
 import { useNavigate } from "react-router-dom";
 import './EnglishTest.css';
 import PDFDownloadButton from "./makePDF";
@@ -59,7 +60,7 @@ function EnglishTest1() {
 
   useEffect(() => {
     const qRequest = async () => {
-      const url = "https://mysql-server.azurewebsites.net/EnglishWord";
+      const url = `https://${API.MYSQL_SERVER_NAME}.azurewebsites.net/EnglishWord`;
       const data = {
         first: 1,
         last : 30,

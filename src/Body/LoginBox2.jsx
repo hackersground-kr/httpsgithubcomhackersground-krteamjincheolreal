@@ -1,4 +1,5 @@
 import React from "react";
+import { API } from "../config";
 import './LoginBox2.css';
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +25,7 @@ function LoginBox2({onLogin}){
         console.log(idValue);
         console.log(pwValue);
 
-      const url = "https://mysql-server.azurewebsites.net/login";
+      const url = `https://${API.MYSQL_SERVER_NAME}.azurewebsites.net/login`;
       const data = {
         id: idValue,
         pw: pwValue

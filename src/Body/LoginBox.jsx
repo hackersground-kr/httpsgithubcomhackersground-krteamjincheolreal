@@ -1,4 +1,5 @@
 import React from "react";
+import { API } from "../config";
 import './LoginBox.css';
 import { useState } from "react";
 
@@ -20,7 +21,7 @@ function LoginBox(){
         console.log(idValue);
         console.log(pwValue);
         try {
-            const url = 'https://mysql-server.azurewebsites.net/login';
+            const url = `https://${API.MYSQL_SERVER_NAME}.azurewebsites.net/login`;
             const data = { id: {idValue}, pw: {pwValue} };
             console.log('1');
             const response = await fetch(url, {

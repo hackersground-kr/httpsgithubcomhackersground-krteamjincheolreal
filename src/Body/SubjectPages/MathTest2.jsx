@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { API } from "../../config";
 import { useNavigate } from "react-router-dom";
 import './MathTest.css';
 import PDFDownloadButton from "./makePDF";
@@ -54,7 +55,7 @@ function MathTest2() {
 
   useEffect(() => {
     const qRequest = async () => {
-      const url = "https://mysql-server.azurewebsites.net/bang";
+      const url = `https://${API.MYSQL_SERVER_NAME}.azurewebsites.net/bang`;
       const data = {
         degree: 7,
       };
