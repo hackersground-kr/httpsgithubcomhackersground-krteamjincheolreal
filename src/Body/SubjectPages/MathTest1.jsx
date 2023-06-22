@@ -42,7 +42,7 @@ function MathTest1() {
             }
         }
         console.log(cnt);
-        onClickGoOut();
+        alert(cnt + '개 맞았습니다!');
     }
     navigate("/enter");
   };
