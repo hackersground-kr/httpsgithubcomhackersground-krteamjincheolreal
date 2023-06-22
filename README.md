@@ -14,9 +14,9 @@
 > Visual Studio Code Extensions에서 Azure Tools 설치<br>
 > 루트폴더에 있는 config.json에서 **[mysql-server-name]** 과 **[python-server-name]**, **[react-server-name]** 을 설정한다.<br>
 > src폴더에 있는 config.js에서 **[MYSQL_SERVER_NAME]** 을 설정한다.<br>
-> Azure Portal에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만든다. (백엔드)<br>
-> Azure Portal에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)<br>
-> Azure Portal에서 이름이 **[mysql-server-name]** 인 Azure database for MySQL 서버를 만든다. (백엔드)<br>
+> Azure Portal App Services에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만든다. (백엔드)<br>
+> Azure Portal App Services에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)<br>
+> Azure Portal Azure Database for MySQL에서 이름이 **[mysql-server-name]** 인 Azure database for MySQL 서버를 만든다. (백엔드)<br>
 
 ## 설치 방법
 
