@@ -29,7 +29,9 @@ cd httpsgithubcomhackersground-krteamjincheolreal
 > 3. 루트폴더에 있는 config.json에서 **[mysql-server-name]** 과 **[python-server-name]**, **[react-server-name]** 을 설정합니다.<br>
 > 3-1. src폴더에 있는 config.js에서 **[MYSQL_SERVER_NAME]** 을 설정합니다.<br>
 > 4. Azure Portal App Services에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만듭니다. (백엔드)<br>
+> 4-1. App Services에서 만들기 -> 웹 앱 -> 런타임 스택 python 3.10, 지역 East US -> 검토 + 만들기 클릭
 > 5. Azure Portal App Services에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만듭니다. (프론트엔드)<br>
+> 5-1. App Services에서 만들기 -> 웹 앱 -> 런타임 스택 Node 18 LTS, 지역 East US -> 검토 + 만들기 클릭
 
 #### 백엔드(flask) 배포 방법(visual studio code에서 작업)<br>
 > 1. VScode에서 Azure Tools 설치 및 Sign in to Azure<br>
