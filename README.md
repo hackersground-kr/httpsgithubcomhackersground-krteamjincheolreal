@@ -41,4 +41,5 @@
 > 3. mysql 버전: 5.7, 사용자 이름: **[mysql-server-name]** , 비밀번호: qwer1234!@#$ <br>
 > 4. 검토+만들기 클릭<br>
 
-프론트엔드는 https://**[react-server-name]**.azurewebsites.net 을 통해 접근할 수 있다.<br>
+서비스는 https://**[react-server-name]**.azurewebsites.net 을 통해 접근 가능.<br>
+
