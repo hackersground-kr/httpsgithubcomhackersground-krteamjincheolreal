@@ -12,11 +12,14 @@
 
 > **여러분의 제품/서비스를 Microsoft 애저 클라우드에 배포하기 위해 사전에 필요한 준비 사항들을 적어주세요.**<br>
 > 1. Visual Studio Code Extensions에서 Azure Tools 설치<br>
-> 2. 루트폴더에 있는 config.json에서 **[mysql-server-name]** 과 **[python-server-name]**, **[react-server-name]** 을 설정한다.<br>
-> 2-1. src폴더에 있는 config.js에서 **[MYSQL_SERVER_NAME]** 을 설정한다.<br>
-> 3. Azure Portal App Services에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만든다. (백엔드)<br>
-> 3-1. Azure Portal App Services에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)<br>
-> 3-2. Azure Portal Azure Database for MySQL에서 이름이 **[mysql-server-name]** 인 Azure database for MySQL 서버를 만든다. (백엔드)<br>
+> 2. Visual Studio Code 에서 test 폴더를 만든다.
+> 3. test 폴더 경로에서 터미널을 실행한 후, ```git clone https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal``` 실행
+>    3-1. 그러면 test 폴더에 프로젝트가 생성됩니다.
+> 4. 루트폴더에 있는 config.json에서 **[mysql-server-name]** 과 **[python-server-name]**, **[react-server-name]** 을 설정한다.<br>
+> 4-1. src폴더에 있는 config.js에서 **[MYSQL_SERVER_NAME]** 을 설정한다.<br>
+> 5. Azure Portal App Services에서 이름이 **[python-server-name]** 인 python 3.10 용 웹앱을 만든다. (백엔드)<br>
+> 6. Azure Portal App Services에서 이름이 **[react-server-name]** 인 Node 18 lts 용 웹앱을 만든다. (프론트엔드)<br>
+> 7. Azure Portal Azure Database for MySQL에서 이름이 **[mysql-server-name]** 인 Azure database for MySQL 서버를 만든다. (백엔드)<br>
 
 ## 설치 방법
 
