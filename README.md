@@ -24,11 +24,11 @@
 ## 설치 방법
 
 > **아래 제공하는 설치 방법을 통해 심사위원단이 여러분의 제품/서비스를 실제 Microsoft 애저 클라우드에 배포하고 설치할 수 있어야 합니다. 만약 아래 설치 방법대로 따라해서 배포 및 설치가 되지 않을 경우 본선에 진출할 수 없습니다.**<br>
-> git clone https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal<br>
-> Visual Studio Code Extensions에서 Azure Tools 설치<br>
-> Azure App Services에서 python 3.10 용 웹앱, Node 18 lts 용 웹앱에 각각 deploy한다.(httpsgithubcomhackersground-krteamjincheolreal 폴더)<br>
+> 1. git clone https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal<br>
+> 2. Visual Studio Code Extensions에서 Azure Tools 설치<br>
+> 3. Azure App Services에서 python 3.10 용 웹앱, Node 18 lts 용 웹앱에 각각 deploy한다.(httpsgithubcomhackersground-krteamjincheolreal 폴더)<br>
 <img width="472" alt="Screenshot 2023-06-22 at 17 28 41" src="https://github.com/hackersground-kr/httpsgithubcomhackersground-krteamjincheolreal/assets/49835246/546dcd52-c6c7-4174-b08d-b574e0cc57da">
-> https://jumpuptohappyschool-server1.azurewebsites.net 을 통해 접근할 수 있다.<br>
+> 4. https://jumpuptohappyschool-server1.azurewebsites.net 을 통해 접근할 수 있다.<br>
 
 
 ### 사전 준비 사항
