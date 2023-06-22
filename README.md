@@ -50,6 +50,19 @@ cd httpsgithubcomhackersground-krteamjincheolreal
 > 2. 만들기 클릭 -> 유연한 서버 만들기 -> 서버 이름은 **[mysql-server-name]** 으로 설정<br>
 > 3. mysql 버전: 5.7, 사용자 이름: **[mysql-server-name]** , 비밀번호: qwer1234!@#$ <br>
 > 4. 검토+만들기 클릭<br>
+> 5. ```ps1
+>    create database user_data;
+>    use user_data;
+>    CREATE TABLE member_table (
+     no        INT NOT NULL AUTO_INCREMENT,
+     id     VARCHAR(50),
+     pw    VARCHAR(50),
+     primary key(no)
+    );
+    INSERT INTO user_data (id, pw)
+	   	    VALUE('guest', 'guest');
+    ```
+    위 코드를 **[mysql-server-name]** Azure Portal 개요에 있는 연결 클릭 -> 붙여넣기
 
 서비스는 https://**[react-server-name]**.azurewebsites.net 을 통해 접근 가능.<br>
 
